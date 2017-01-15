@@ -104,12 +104,13 @@ hr {
   border-bottom: 1px solid #eee;
   margin-bottom: 15px;
   position: relative;
+
 }
 .column-title:after {
   content: " ";
   position: absolute;
   bottom: -1px;
-  left: 0;
+  left: 30%;
   width: 40%;
   border-bottom: 1px solid #45aed6;
 }
@@ -180,8 +181,8 @@ ul.nostyle i {
   #main-menu.navbar-default .navbar-nav > li.open > a,
   #main-menu.navbar-default .navbar-nav > li:hover > a {
     background: transparent;
-    padding-top: 37px;
-    border-top: 3px solid #45aed6;
+    padding-bottom: 36px;
+    border-bottom: 4px solid #45aed6;
   }
   #main-menu.navbar-default .dropdown-menu {
     padding: 0 20px;
@@ -944,6 +945,10 @@ ul.nostyle i {
 
 
 /* MY ADDITIONS */
+#contact-us {
+  padding: 100px 0 70px;
+}
+
 #testimonials-section-header,
 #contact-us-section-header {
   color: #fff;
