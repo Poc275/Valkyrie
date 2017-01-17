@@ -1037,3 +1037,24 @@ ul.nostyle i {
 .overlay:hover img {
   opacity: 1;
 }*/
+
+/* STATIC HEADER */
+#plain-header {
+  overflow: hidden;
+}
+
+#plain-header .item {
+  height: 558px;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  color: #fff;
+}
+
+#plain-header h2 {
+  margin-top: 180px;
+  font-size: 36px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #fff;
+}
