@@ -1,0 +1,42 @@
+body {
+    padding-top: 0;
+}
+
+#main-slider {
+    height: 300px;
+}
+
+.owl-controls {
+    visibility: hidden;
+}
+
+#menu-bar {
+    margin-top: 2em;
+}
+
+#footer {
+    background-color: #fff;
+    color: #000;
+    border-top: 1px solid #999;
+    font-size: smaller;
+}
+
+#footer ul {
+    color: #999;
+}
+
+#footer ul li {
+    display: block;
+}
+
+#footer ul li a {
+    color: #999;
+}
+
+#footer-social {
+    margin-top: 2em;
+}
+
+.social-icons li {
+    display: inline!important;
+}
