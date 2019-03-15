@@ -1,22 +1,13 @@
-body {
-    padding-top: 0;
+#logo {
+    max-height: 300px;
 }
 
-#main-slider {
-    height: 300px;
-}
-
-.owl-controls {
-    visibility: hidden;
-}
-
-#menu-bar {
-    margin-top: 2em;
+#valkyrie-work-carousel {
+    max-height: 300px;
+    overflow: hidden;
 }
 
 #footer {
-    background-color: #fff;
-    color: #000;
     border-top: 1px solid #999;
     font-size: smaller;
 }
@@ -31,10 +22,6 @@ body {
 
 #footer ul li a {
     color: #999;
-}
-
-#footer-social {
-    margin-top: 2em;
 }
 
 .social-icons li {
