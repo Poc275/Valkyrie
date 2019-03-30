@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="css/custom-styles.css" rel="stylesheet">
 
-    <title>Valkyrie Design</title>
+    <title>Valkyrie Design - About Us</title>
   </head>
   <body>
     <div class="container">
@@ -91,30 +91,89 @@
         </nav>
     </div>
 
-    <div class="container mt-5">
+    <div class="container my-5">
         <div class="row my-2">
             <div class="col">
-                <div class="jumbotron">
-                    <h1 class="display-4">Welcome to Valkyrie Design</h1>
-                    <p class="lead">Put your company banner/mission statement here.</p>
-                    <hr class="my-4">
-                    <p>Secondary message for customers</p>
-                    <a class="btn btn-primary btn-lg" href="order.html" role="button">Order 3D Prints</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row my-2">
-            <div class="col">
-                <h3>Our Capability</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae elit id nunc lacinia auctor vitae sit amet 
+                <h2 class="text-center" id="about-us">About Us</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae elit id nunc lacinia auctor vitae sit amet 
                     lacus. Nullam id nunc et dolor sodales ultricies. Duis in accumsan quam. Donec in lacinia ex, quis aliquet elit. Donec lacus urna, 
                     vestibulum eu diam efficitur, pharetra suscipit ante. Duis ac hendrerit justo. Phasellus quis auctor dolor. Interdum et malesuada 
                     fames ac ante ipsum primis in faucibus. Mauris mollis posuere ligula eu molestie. Vivamus vel mauris erat. Phasellus leo lacus, 
                     euismod quis condimentum ut, congue sit amet massa. Vivamus aliquet lacus at orci ultricies, ut euismod nisi ultricies. Aliquam 
                     maximus augue dui, vel viverra sem ullamcorper vel. Suspendisse nec odio vulputate, lacinia elit vel, hendrerit diam.</p>
+            </div>
+        </div>
+
+        <div class="row my-2">
+            <div class="col-sm-6">
+                <h3>See us in action</h3>
+                <!-- 16:9 aspect ratio -->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe src="//player.vimeo.com/video/58093852?title=0&amp;byline=0&amp;portrait=0&amp;color=e79b39" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <h3>Our capability</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
+                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <ul">
+                            <li>Ipsum is simply dummy</li>
+                            <li>When an unknown</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <ul>
+                            <li>The printing and typesetting</li>
+                            <li>Lorem Ipsum has been</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <a class="btn btn-primary" href="order.html">Order 3D Prints</a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col">
+                <h2 class="text-center" id="contact-us">Contact Us</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dui sapien, feugiat in purus a, consectetur 
+                    finibus dolor. Proin ultrices, magna rhoncus accumsan vulputate, arcu neque dictum nisl, non facilisis risus nulla vitae neque. 
+                    Ut cursus arcu justo, ac sollicitudin nisl dapibus a.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputName">Name</label>
+                            <input type="text" class="form-control" id="inputName" placeholder="Name" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail">Email</label>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <label for="exampleFormControlTextarea1">What can we do for you&quest;</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" required></textarea>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit Request</button>
+                </form>
             </div>
         </div>
     </div>

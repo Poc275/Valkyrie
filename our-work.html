@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="css/custom-styles.css" rel="stylesheet">
 
     <title>Valkyrie Design Work</title>
@@ -40,37 +40,49 @@
         </div>
     </div>
 
-    <div class="container my-4">
+    <div class="container my-4" id="sticky-navbar">
         <nav class="navbar navbar-expand-lg navbar-light bg-light" role="banner">
             <a class="navbar-brand" href="#">Valkyrie Design</a>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="index-clean.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Home
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="index.html#about-us">About Us</a>
-                            <a class="dropdown-item" href="index.html#contact-us">Contact Us</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <div class="btn-group">
+                            <a class="btn btn-link nav-link" href="about.html" role="button">About Us</a>
+                            <button type="button" class="btn btn-link nav-link dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="sr-only">About Us</span>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="about.html#contact-us">Contact Us</a>
+                            </div>
                         </div>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="our-services.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Our Services
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="our-services.html#3d-modelling">3D Modelling</a>
-                            <a class="dropdown-item" href="our-services.html#3d-scanning">3D Scanning</a>
-                            <a class="dropdown-item" href="our-services.html#3d-printing">3D Printing</a>
-                            <a class="dropdown-item" href="our-services.html#design">Design</a>
-                            <a class="dropdown-item" href="our-services.html#simulation">Simulation &amp; Animation</a>
-                            <a class="dropdown-item" href="our-services.html#plans">Plans &amp; Drawings</a>
-                            <a class="dropdown-item" href="our-services.html#engineering">Engineering Design</a>
+
+                    <li class="nav-item">
+                        <div class="btn-group">
+                            <a class="btn btn-link nav-link" href="our-services.html" role="button">Our Services</a>
+                            <button type="button" class="btn btn-link nav-link dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="sr-only">Our Shops</span>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="our-services.html#3d-modelling">3D Modelling</a>
+                                <a class="dropdown-item" href="our-services.html#3d-scanning">3D Scanning</a>
+                                <a class="dropdown-item" href="our-services.html#3d-printing">3D Printing</a>
+                                <a class="dropdown-item" href="our-services.html#design">Design</a>
+                                <a class="dropdown-item" href="our-services.html#simulation">Simulation &amp; Animation</a>
+                                <a class="dropdown-item" href="our-services.html#plans">Plans &amp; Drawings</a>
+                                <a class="dropdown-item" href="our-services.html#engineering">Engineering Design</a>
+                            </div>
                         </div>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="our-work.html">Our Work</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="order.html">Order 3D Printing</a>
                     </li>
@@ -180,52 +192,29 @@
         </div>
     </div>
 
-    
-
     <div class="container my-5" id="footer">
-        <div class="row my-3 d-flex justify-content-between">
-            <div class="col-sm-3">
-                <h6>Our Capability</h6>
-                <ul class="list-inline">
-                    <li><a href="#">3D Modelling</a></li>
-                    <li><a href="#">3D Scanning</a></li>
-                    <li><a href="#">3D Printing</a></li>
-                    <li><a href="#">Design</a></li>
-                    <li><a href="#">Simulation &amp; Animation</a></li>
-                    <li><a href="#">Plans &amp; Drawings</a></li>
-                    <li><a href="#">Engineering Design</a></li>
-                </ul>
-            </div>
-
-            <div class="col-sm-3 text-center">
-                <h6>Further Information</h6>
-                <ul class="list-inline">
-                    <li><a href="#">Our Story</a></li>
-                    <li><a href="#">Our Customers</a></li>
-                    <li><a href="#">Our Equipment</a></li>
-                    <li><a href="#">Materials Guide</a></li>
-                </ul>
-            </div>
-
-            <div class="col-sm-3 text-right">
+        <div class="row my-3">
+            <div class="col-md-9">
                 <h6>The Boring Stuff</h6>
-                <ul class="list-inline">
-                    <li><a href="#">Terms &amp; Conditions</a></li>
-                    <li><a href="#">Privacy</a></li>
-                    <li><a href="#">Security &amp; Cookies</a></li>
-                    <li><a href="#">Trademark Protection</a></li>
+                <ul class="list-group list-group-horizontal" id="footer-menu">
+                    <li class="list-group-item"><a href="#">Terms &amp; Conditions</a></li>
+                    <li class="list-group-item"><a href="#">Privacy</a></li>
+                    <li class="list-group-item"><a href="#">Security &amp; Cookies</a></li>
+                    <li class="list-group-item"><a href="#">Trademark Protection</a></li>
                 </ul>
+            </div>
 
+            <div class="col-md-3 text-right">
                 <ul class="list-inline social-icons">
-                    <li class="mr-2"><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
-                    <li class="mr-2"><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
-                    <li class="mr-2"><a href="#"><i class="fa fa-pinterest fa-2x"></i></a></li>
-                    <li><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
+                    <li class="mr-2"><a href="#"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+                    <li class="mr-2"><a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
+                    <li class="mr-2"><a href="#"><i class="fab fa-pinterest-square fa-2x"></i></a></li>
+                    <li><a href="#"><i class="fab fa-etsy fa-2x"></i></a></li>
                 </ul>
             </div>
         </div>
 
-        <div class="row my-3" id="footer-social">
+        <div class="row my-3">
             <div class="col">
                 &copy; 2019 Valkyrie Design.
             </div>

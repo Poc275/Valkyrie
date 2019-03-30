@@ -7,17 +7,43 @@
     overflow: hidden;
 }
 
+/* Navigation */
+#sticky-navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;             /* when top is 0 for the navbar, stick */
+    z-index: 1000;      /* so rest of page scrolls beneath */
+}
+
+.navbar {
+    border: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.nav-link {
+    border: none;   /* to align normal nav items and the split nav drop-downs */
+}
+
+/* Footer */
 #footer {
     border-top: 1px solid #999;
     font-size: smaller;
 }
 
-#footer ul {
-    color: #999;
+#footer-menu {
+    display: inline-flex;
 }
 
-#footer ul li {
-    display: block;
+#footer-menu li {
+    border: none;
+}
+
+#footer h6 {
+    display: inline-block;
+    color: #000;
+}
+
+#footer {
+    color: #999;
 }
 
 #footer ul li a {
