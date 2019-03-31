@@ -13,7 +13,7 @@
     <title>Valkyrie Design</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="header">
         <div class="row">
             <div class="col-md-2">
                 <a href="index.html"><img src="images/valkyrie-design-logo-v1.jpg" alt="company logo" id="logo"></a>
@@ -45,7 +45,7 @@
             <a class="navbar-brand" href="#">Valkyrie Design</a>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
-                    
+
                     <li class="nav-item">
                         <div class="btn-group">
                             <a class="btn btn-link nav-link" href="about.html" role="button">Title 1</a>
@@ -105,15 +105,165 @@
     </div>
 
     <div class="container">
-        <div class="row my-2">
-            <div class="col">
-                <h3>Our Capability</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae elit id nunc lacinia auctor vitae sit amet 
-                    lacus. Nullam id nunc et dolor sodales ultricies. Duis in accumsan quam. Donec in lacinia ex, quis aliquet elit. Donec lacus urna, 
-                    vestibulum eu diam efficitur, pharetra suscipit ante. Duis ac hendrerit justo. Phasellus quis auctor dolor. Interdum et malesuada 
-                    fames ac ante ipsum primis in faucibus. Mauris mollis posuere ligula eu molestie. Vivamus vel mauris erat. Phasellus leo lacus, 
-                    euismod quis condimentum ut, congue sit amet massa. Vivamus aliquet lacus at orci ultricies, ut euismod nisi ultricies. Aliquam 
-                    maximus augue dui, vel viverra sem ullamcorper vel. Suspendisse nec odio vulputate, lacinia elit vel, hendrerit diam.</p>
+        <div class="row my-3">
+            <div class="col text-center">
+                <h3 class="section-header">Work with us</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque augue dolor, id tincidunt massa mollis at. Cras magna urna, 
+                    consectetur id turpis in, dignissim vulputate odio. Sed sollicitudin posuere tempor. Morbi sed tempus mi. Nam augue dui, lobortis vitae 
+                    lectus ac, porta tempor velit. Vestibulum sollicitudin hendrerit venenatis. Vestibulum interdum lacus eu mattis feugiat. Nulla sed 
+                    fringilla eros. Aenean ultrices quam vel pulvinar tristique. Ut molestie hendrerit metus id malesuada. Sed lobortis viverra enim 
+                    sit amet mattis.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4 text-center">
+                <img src="images/icons/laptop.svg" alt="3d modelling icon">
+                <h4 class="capability-title">3D Modelling</h4>
+                <p class="lead">We have many years experience in the field of 3D modelling and can help you with your modelling needs whether it be engineering design or 
+                    creative modelling.
+                </p>
+                <a class="btn btn-primary btn-sm" href="our-services.html#3d-modelling" role="button">Find out more</a>
+            </div>
+
+            <div class="col-sm-4 text-center">
+                <img src="images/icons/printer.svg" alt="3d printing icon">
+                <h4 class="capability-title">3D Printing</h4>
+                <p class="lead">We have the latest 3D printing technology readily available to prototype and bring to life your ideas and designs.</p>
+                <a class="btn btn-primary btn-sm" href="our-services.html#3d-printing" role="button">Find out more</a>
+            </div>
+
+            <div class="col-sm-4 text-center">
+                <img src="images/icons/airplane.svg" alt="aerospace design icon">
+                <h4 class="capability-title">Engineering Design</h4>
+                <p class="lead">We have a strong heritage of engineering design particularly in the aerospace industry and would be happy to help you with your design needs.</p>
+                <a class="btn btn-primary btn-sm" href="our-services.html#engineering" role="button">Find out more</a>
+            </div>
+        </div>
+
+        <div class="row my-5">
+            <div class="col-sm-4 text-center">
+                <img src="images/icons/polaroid.svg" alt="3d scanning icon">
+                <h4 class="capability-title">3D Scanning</h4>
+                <p class="lead">We have the capability to be able to scan and accurately measure any item to convert it to a 3D model and refine it for printing.</p>
+                <a class="btn btn-primary btn-sm" href="our-services.html#3d-scanning" role="button">Find out more</a>
+            </div>
+
+            <div class="col-sm-4 text-center">
+                <img src="images/icons/stopwatch.svg" alt="simulation and animation icon">
+                <h4 class="capability-title">Simulation & Animation</h4>
+                <p class="lead">We have the latest simulation and animation software ready to create exciting animations to meet your needs.</p>
+                <a class="btn btn-primary btn-sm" href="our-services.html#design" role="button">Find out more</a>
+            </div>
+
+            <div class="col-sm-4 text-center">
+                <img src="images/icons/pencil.svg" alt="house plans icon">
+                <h4 class="capability-title">Plans & Drawings</h4>
+                <p class="lead">Our background includes technical drawing which allows us to offer house plans, blueprints and engineering drawings as a service.</p>
+                <a class="btn btn-primary btn-sm" href="our-services.html#plans" role="button">Find out more</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="our-process">
+        <div class="container">
+            <div class="row my-5">
+                <div class="col text-center">
+                    <h3 class="section-header">Order 3D Printing</h3>
+                    <p>This is the process to order 3D printing from us. We make every effort to respond to your request within five working days.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-3 text-center">
+                    <div class="process-circle">
+                        <span>1</span>
+                        <i class="fas fa-cubes fa-2x"></i>
+                    </div>
+                    <h5>Check your model</h5>
+                    <p>We can only accept STL files saved at high resolution.</p>
+                </div>
+
+                <div class="col-sm-3 text-center">
+                    <div class="process-circle">
+                        <span>2</span>
+                        <i class="fas fa-file-import fa-2x"></i>
+                    </div>
+                    <h5>Submit your model</h5>
+                    <p>Go to the <a href="order.html">order page</a> and complete the form.</p>
+                </div>
+
+                <div class="col-sm-3 text-center">
+                    <div class="process-circle">
+                        <span>3</span>
+                        <i class="fas fa-search fa-2x"></i>
+                    </div>
+                    <h5>Model review</h5>
+                    <p>We will review the model and get back to you with a price.</p>
+                </div>
+
+                <div class="col-sm-3 text-center">
+                    <div class="process-circle">
+                        <span>4</span>
+                        <i class="fas fa-shopping-cart fa-2x"></i>
+                    </div>
+                    <h5>Place an order</h5>
+                    <p>Confirm your order, sit back and await delivery!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row my-5">
+            <div class="col text-center">
+                <h3 class="section-header">Our Clients</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque augue dolor, id tincidunt massa mollis at. Cras magna urna, 
+                    consectetur id turpis in, dignissim vulputate odio. Sed sollicitudin posuere tempor. Morbi sed tempus mi. Nam augue dui, lobortis vitae 
+                    lectus ac, porta tempor velit. Vestibulum sollicitudin hendrerit venenatis. Vestibulum interdum lacus eu mattis feugiat. Nulla sed 
+                    fringilla eros. Aenean ultrices quam vel pulvinar tristique. Ut molestie hendrerit metus id malesuada. Sed lobortis viverra enim 
+                    sit amet mattis.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4 text-center">
+                <img src="images/testimonial/profile1.png" alt="customer profile picture">
+                <h4 class="capability-title">Company A</h4>
+                <blockquote>
+                    <p><i class="fas fa-quote-left"></i> 
+                        Valkyrie Design turned around a set of drawings for us in a tight deadline. Highly recommended. 
+                        <i class="fas fa-quote-right"></i>
+                    </p>
+                </blockquote>
+                
+                <cite>– Joe Bloggs, Company A CEO</cite>
+            </div>
+
+            <div class="col-sm-4 text-center">
+                <img src="images/testimonial/profile2.png" alt="customer profile picture">
+                <h4 class="capability-title">Company B</h4>
+                <blockquote>
+                    <p><i class="fas fa-quote-left"></i> 
+                        Great service, great people, great quality. 
+                        <i class="fas fa-quote-right"></i>
+                    </p>
+                </blockquote>
+                
+                <cite>– Jane Doe, Company B Design Engineer</cite>
+            </div>
+
+            <div class="col-sm-4 text-center">
+                <img src="images/testimonial/profile1.png" alt="customer profile picture">
+                <h4 class="capability-title">Company C</h4>
+                <blockquote>
+                    <p><i class="fas fa-quote-left"></i> 
+                        Excellent quality and communication! 
+                        <i class="fas fa-quote-right"></i>
+                    </p>
+                </blockquote>
+                
+                <cite>– John Smith, Company C Project Manager</cite>
             </div>
         </div>
     </div>
