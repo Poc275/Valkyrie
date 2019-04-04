@@ -121,3 +121,13 @@
 .social-icons li {
     display: inline!important;
 }
+
+/* services page */
+.service-section {
+    padding: 75px 0;
+}
+
+.service-section-alt {
+    padding: 75px 0;
+    background-color: #f7f7f7;
+}
