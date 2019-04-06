@@ -1,10 +1,14 @@
+/* header */
+#header {
+    overflow: hidden;
+}
+
 #logo {
     max-height: 300px;
 }
 
 #valkyrie-work-carousel {
     max-height: 300px;
-    overflow: hidden;
 }
 
 /* Navigation */
