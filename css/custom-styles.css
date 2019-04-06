@@ -135,3 +135,96 @@
     padding: 75px 0;
     background-color: #f7f7f7;
 }
+
+/* information pages */
+.service-title {
+    position: relative;
+    top: 50%;
+    color: #fff;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+#printing-service-header {
+    height: 50vh;
+    background: linear-gradient(to bottom,
+        rgba(0, 0, 0, 0.5) 0%,
+        rgb(12, 16, 28) 65%,
+        rgba(0, 0, 0) 66%),
+        url('../images/our-services/3d-printing.jpg');
+
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#modelling-service-header {
+    height: 50vh;
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.5) 0%,
+            rgb(12, 16, 28) 65%,
+            rgba(0, 0, 0) 66%),
+        url('../images/our-services/3d-modelling.jpg');
+
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#scanning-service-header {
+    height: 50vh;
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.5) 0%,
+            rgb(12, 16, 28) 65%,
+            rgba(0, 0, 0) 66%),
+        url('../images/our-services/3d-scanning.jpg');
+
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#simulation-service-header {
+    height: 50vh;
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.5) 0%,
+            rgb(12, 16, 28) 65%,
+            rgba(0, 0, 0) 66%),
+        url('../images/our-services/simulation-and-animation.jpg');
+
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#drawings-service-header {
+    height: 50vh;
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.5) 0%,
+            rgb(12, 16, 28) 65%,
+            rgba(0, 0, 0) 66%),
+        url('../images/our-services/plans-and-drawings.jpg');
+
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#engineering-design-service-header {
+    height: 50vh;
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.5) 0%,
+            rgb(12, 16, 28) 65%,
+            rgba(0, 0, 0) 66%),
+        url('../images/our-services/engineering-design.jpg');
+
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
