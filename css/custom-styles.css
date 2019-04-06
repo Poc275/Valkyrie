@@ -136,6 +136,21 @@
     background-color: #f7f7f7;
 }
 
+/* our work page */
+.grid-item {
+    margin: 1em 0;
+}
+
+.project-highlights {
+    list-style: none;
+    padding-left: 0;
+}
+
+.portfolio-project {
+    padding: 75px 0;
+}
+
+
 /* information pages */
 .service-title {
     position: relative;
