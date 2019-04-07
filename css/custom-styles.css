@@ -126,6 +126,19 @@
     display: inline!important;
 }
 
+.fa-facebook-square,
+.fa-google {
+    transition: color 0.5s ease;
+}
+
+.fa-facebook-square:hover {
+    color: #3b5998;
+}
+
+.fa-google:hover {
+    color: #DB4437;
+}
+
 /* services page */
 .service-section {
     padding: 75px 0;
@@ -144,6 +157,10 @@
 .project-highlights {
     list-style: none;
     padding-left: 0;
+}
+
+.project-section {
+    padding-top: 2em;
 }
 
 
