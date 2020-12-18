@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="css/custom-styles.css" rel="stylesheet">
 
-    <title>Valkyrie Design - About Us</title>
+    <title>Valkyrie Design - 3D Simulation Enquiry</title>
   </head>
   <body>
     <div class="container" id="header">
@@ -71,7 +71,6 @@
             </div>
         </div>
     </div>
-    
 
     <div class="container my-4" id="sticky-navbar">
         <nav class="navbar navbar-expand-lg navbar-light bg-light" role="banner">
@@ -119,24 +118,13 @@
     <div class="container my-5">
         <div class="row my-2">
             <div class="col">
-                <h2 class="text-center section-header" id="about-us">About Us</h2>
+                <h2 class="text-center section-header" id="order-prints">3D Simulation Enquiry</h2>
                 <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae elit id nunc lacinia auctor vitae sit amet 
                     lacus. Nullam id nunc et dolor sodales ultricies. Duis in accumsan quam. Donec in lacinia ex, quis aliquet elit. Donec lacus urna, 
                     vestibulum eu diam efficitur, pharetra suscipit ante. Duis ac hendrerit justo. Phasellus quis auctor dolor. Interdum et malesuada 
                     fames ac ante ipsum primis in faucibus. Mauris mollis posuere ligula eu molestie. Vivamus vel mauris erat. Phasellus leo lacus, 
                     euismod quis condimentum ut, congue sit amet massa. Vivamus aliquet lacus at orci ultricies, ut euismod nisi ultricies. Aliquam 
                     maximus augue dui, vel viverra sem ullamcorper vel. Suspendisse nec odio vulputate, lacinia elit vel, hendrerit diam.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="container my-5">
-        <div class="row">
-            <div class="col">
-                <h2 class="text-center section-header" id="contact-us">Contact Us</h2>
-                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dui sapien, feugiat in purus a, consectetur 
-                    finibus dolor. Proin ultrices, magna rhoncus accumsan vulputate, arcu neque dictum nisl, non facilisis risus nulla vitae neque. 
-                    Ut cursus arcu justo, ac sollicitudin nisl dapibus a.</p>
             </div>
         </div>
 
@@ -199,5 +187,14 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        // modifies the 'Select 3D Model File' text when a file has been selected
+        $('#inputModelFile').on('change',function(){
+            //get the file name (remove the full C:\fakepath\ directory)
+            var fileName = $(this).val().replace('C:\\fakepath\\', " ");
+            //replace the "Choose a file" label
+            $(this).next('.custom-file-label').html(fileName);
+        })
+    </script>
   </body>
 </html>
