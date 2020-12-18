@@ -11,6 +11,30 @@
     max-height: 300px;
 }
 
+.consultancy-banner,
+.cad-modelling-banner,
+.cad-drawing-banner,
+.three-d-printing-banner,
+.three-d-scanning-banner,
+.three-d-simulation-banner {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url('../images/placeholder-wide.png');
+    height: 300px;
+}
+
+.banner-text {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 138px;
+    font-size: 24px;
+    color: #fff;
+    text-shadow: -2px -3px 14px rgba(150, 150, 150, 1);
+}
+
 /* Navigation */
 #sticky-navbar {
     position: -webkit-sticky;
