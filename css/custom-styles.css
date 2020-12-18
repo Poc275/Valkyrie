@@ -44,7 +44,7 @@
 }
 
 .navbar {
-    border: 1px solid rgba(128, 128, 128, 0.5);
+    border: 1px solid rgba(15,5,158, 0.25);
 }
 
 .nav-link {
@@ -121,7 +121,7 @@
 
 /* Footer */
 #footer {
-    border-top: 1px solid #999;
+    border-top: 1px solid rgba(15,5,158, 0.25);
     font-size: smaller;
 }
 
@@ -166,11 +166,13 @@
 /* services page */
 .service-section {
     padding: 75px 0;
+    border-top: 1px solid rgba(15,5,158, 0.25);
 }
 
 .service-section-alt {
     padding: 75px 0;
-    background-color: #f7f7f7;
+    background-color: #f8f8ff;
+    border-top: 1px solid rgba(15,5,158, 0.25);
 }
 
 /* our work page */
