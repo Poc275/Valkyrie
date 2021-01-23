@@ -155,12 +155,16 @@
     transition: color 0.5s ease;
 }
 
-.fa-facebook-square:hover {
+.fa-facebook-square {
     color: #3b5998;
 }
 
-.fa-google:hover {
-    color: #DB4437;
+.fa-linkedin {
+    color: #0072b1;
+}
+
+.fa-instagram {
+    color: #f00075;
 }
 
 /* services page */
