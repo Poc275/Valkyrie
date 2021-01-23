@@ -179,6 +179,10 @@
     border-top: 1px solid rgba(15,5,158, 0.25);
 }
 
+.know-more {
+    width: 100px;
+}
+
 /* our work page */
 .grid-item {
     margin: 1em 0;
