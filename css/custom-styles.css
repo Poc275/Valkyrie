@@ -1,6 +1,6 @@
 /* header */
 #header {
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 #logo {
@@ -8,7 +8,7 @@
 }
 
 #valkyrie-work-carousel {
-    max-height: 300px;
+    /* max-height: 300px; */
 }
 
 .consultancy-banner,
