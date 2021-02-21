@@ -637,3 +637,13 @@ a.read-more:hover{
       visibility: hidden;
     }
 }
+
+/* portfolio pages */
+.portfolio-project img {
+    width: 270px;
+}
+
+#client-grid {
+    columns: 3 270px;
+    column-gap: 2rem;
+}
