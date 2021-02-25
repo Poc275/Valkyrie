@@ -39,6 +39,7 @@ var newsItems = [
 
 // add news items to page
 var newsTickerList = document.getElementById("news-ticker-list");
+
 newsItems.forEach(newsItem => {
     var listItemNode = document.createElement("li");
     listItemNode.classList.add("news");
