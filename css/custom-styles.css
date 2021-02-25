@@ -214,43 +214,43 @@
 
 #printing-service-header {
     height: 50vh;
-    background: linear-gradient(to bottom,
+    /* background: linear-gradient(to bottom,
         rgba(0, 0, 0, 0.5) 0%,
         rgb(12, 16, 28) 65%,
         rgba(0, 0, 0) 66%),
-        url('../images/our-services/3d-printing.jpg');
-
+        url('../images/our-services/3d-printing.jpg'); */
+    background-image: url("../images/our-services/3d-printing-montage-placeholder.png");
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-repeat: no-repeat;
 }
 
 #modelling-service-header {
     height: 50vh;
-    background: linear-gradient(to bottom,
+    /* background: linear-gradient(to bottom,
             rgba(0, 0, 0, 0.5) 0%,
             rgb(12, 16, 28) 65%,
             rgba(0, 0, 0) 66%),
-        url('../images/our-services/3d-modelling.jpg');
-
+        url('../images/our-services/3d-modelling.jpg'); */
+    background-image: url("../images/our-services/cad-modelling.png");
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-repeat: no-repeat;
 }
 
 #scanning-service-header {
     height: 50vh;
-    background: linear-gradient(to bottom,
+    /* background: linear-gradient(to bottom,
             rgba(0, 0, 0, 0.5) 0%,
             rgb(12, 16, 28) 65%,
             rgba(0, 0, 0) 66%),
-        url('../images/our-services/3d-scanning.jpg');
-
+        url('../images/our-services/3d-scanning.jpg'); */
+    background-image: url("../images/our-services/3d-scanning.png");
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-repeat: no-repeat;
 }
 
@@ -270,29 +270,29 @@
 
 #drawings-service-header {
     height: 50vh;
-    background: linear-gradient(to bottom,
+    /* background: linear-gradient(to bottom,
             rgba(0, 0, 0, 0.5) 0%,
             rgb(12, 16, 28) 65%,
             rgba(0, 0, 0) 66%),
-        url('../images/our-services/plans-and-drawings.jpg');
-
+        url('../images/our-services/plans-and-drawings.jpg'); */
+    background-image: url("../images/our-services/cad-drawing.png");
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-repeat: no-repeat;
 }
 
 #consultancy-services-header {
     height: 50vh;
-    background: linear-gradient(to bottom,
+    /* background: linear-gradient(to bottom,
             rgba(0, 0, 0, 0.5) 0%,
             rgb(12, 16, 28) 65%,
-            rgba(0, 0, 0) 66%),
-        url('../images/our-services/engineering-design.jpg');
-
+            rgba(0, 0, 0) 96%),
+        url('../images/our-services/engineering-design.jpg'); */
+    background-image: url("../images/our-services/engineering-consultancy.png");
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-repeat: no-repeat;
 }
 
