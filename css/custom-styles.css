@@ -3,6 +3,12 @@
     color: green;
 }
 
+.mandatory-field {
+    font-size: larger;
+    color: red;
+    font-weight: bold;
+}
+
 /* header */
 #header {
     /* overflow: hidden; */
