@@ -419,7 +419,7 @@
     <script src="js/imagesloaded.pkgd.min.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
     <script>
-        // initialise isotope grid (after images have loaded to prevent overlap)
+        // initialise isotope grid
         var grid = $(".grid").isotope({
             itemSelector: ".grid-item",
             percentPosition: true,
@@ -428,6 +428,8 @@
             }
         });
 
+        // update isotope grid when images have loaded
+        // this forces a layout event once the image sizes are known and prevents overlap
         $(".grid").imagesLoaded().progress(function() {
             $(".grid").isotope("layout");
         });
